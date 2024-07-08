@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-    origin: "https://applyjobform-rigte51j0-vishalahir989s-projects.vercel.app",
+    origin: "https://applyjobform-a1twgqoyv-vishalahir989s-projects.vercel.app",
     methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
     credentials: true,
 }
