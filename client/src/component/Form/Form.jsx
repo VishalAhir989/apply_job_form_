@@ -28,7 +28,7 @@ const Form = () => {
     const handelsubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`https://applyjobapi-vishalahir989s-projects.vercel.app/`, {
+            const response = await fetch(`https://applyjobapi-vishalahir989s-projects.vercel.app`, {
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(user),
